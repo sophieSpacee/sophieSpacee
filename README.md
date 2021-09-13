@@ -6,6 +6,8 @@
 - My backend skills : node.js, express, Sequelize & MySQL, Mongoose & MongoDB, adminBro
 - 📫 How to reach me: spacee.sophie@gmail.com
 
+- I have been working on my Spacee project, here is more details about my work: https://github.com/sophieSpacee/sophieSpacee/blob/main/spacee-development.md
+
 <!---
 sophieSpacee/sophieSpacee is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
