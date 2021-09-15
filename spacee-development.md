@@ -15,6 +15,7 @@ I am currently working on a software for real estate professionals. This softwar
 ![image](https://user-images.githubusercontent.com/72617821/133153956-fea108cf-8f04-49dd-8006-a40d3816ac03.png)
 
 * Now I am working on the backend side of this page. I need to learn how to use Context in order to share my teams and spaces data with my building component. I heard about Redux, but my mentor from OpenClassrooms told me Context was easier to learn. 
+* After a couple of tutorials and some documentation reading, I managed to implement context to share my project details into all my project components. 
 
 ## Week 3
 
