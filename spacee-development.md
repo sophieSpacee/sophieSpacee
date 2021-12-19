@@ -1,6 +1,6 @@
 # My first year as a software developer 
 
-I started my first year as a developer on a personal project: a software for real estate professionals. This software allows anyone to create a building and fill it up with teams, collaborative spaces and services. The end goal is to help companies find the best set up according to their synergies and constraints. After a month spent on my project, I got a job at Addworking, a startup company that develops a subcontractor management platform. 
+After 5 years as a workplace consultant, I took a full time training for 6 months to become a full stack developer with OpenClassrooms. After I finished my training, I started working on a personal project: a software for real estate professionals. This software allows anyone to create a building and fill it up with teams, collaborative spaces and services. The end goal is to help companies find the best set up according to their synergies and constraints. After two months spent on my project, I got a job at Addworking, a startup company that develops a subcontractor management platform. 
 
 ## Week 19 - 12/20/2021
 
