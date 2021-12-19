@@ -1,8 +1,79 @@
-# Spacee - workplace optimization software
+# My first year as a software developer 
 
-I am currently working on a software for real estate professionals. This software allow you to create a building and fill it up with teams, collaborative spaces and services. The end goal is to help you find the best set up according to your synergies and constraints. You can find bellow details on my journey:
+I started my first year as a developer on a personal project: a software for real estate professionals. This software allows anyone to create a building and fill it up with teams, collaborative spaces and services. The end goal is to help companies find the best set up according to their synergies and constraints. After a month spent on my project, I got a job at Addworking, a startup company that develops a subcontractor management platform. 
 
-## Week 4
+## Week 19 - 12/20/2021
+
+HOLIDAY 
+
+## Week 18 - 12/13/2021
+
+Integrated a page in Backoffice that included :
+* A Document List component with 2 tabs, each tabs had to show different documents. One tab showed documents asked by Addworking, the other one showed documents asked by customers. As all those documents came from a single list, I had to sort them out depending on the company who asked for them, and split them into two distinct lists : one where Addworking had asked the document, one for all other documents. 
+* A Document Display component with an unknown number of tabs. When the user clicks on a document in the Document List component, the docuemnt is displayed in the middle of the page. Some documents have different PDF files to display, each file must be in a different tab. I had to loop on the files list of the document selected and dynamically create a tab per file. 
+* A Comment component that allows users to write a comment in a text area and select a visibility option in a dropdown menu. This one was tricky because it is not possible to change the style of the select menu of react bootstrap. I had to integrate the design and use states to change the value of privacy before submitting the comment. 
+
+## Week 17 - 12/06/2021
+
+* Implementing tests with Jest. 
+* Implemented an infinite scroll on a list of results. 
+
+## Week 16 - 11/29/2021
+
+* Integrated APIs in frontend 
+* Used DTO on backend routes 
+
+## Week 15 - 11/22/2021
+
+* Created APIs for the BackOffice 
+
+## Week 14 - 11/15/2021
+
+* Integrated first page of Backoffice 
+
+## Week 13 - 11/08/2021
+
+* Implemented Google SSO front and back 
+
+## Week 12 - 11/01/2021
+
+* Initiated backend for a new BackOffice application 
+* Connected application to MongoDB database 
+* Learned how to use Typescript 
+
+## Week 11 - 10/25/2021
+
+* Refacto
+* Swithed front to dark mode theme 
+
+## Week 10 - 10/18/2021
+
+* Implement json-server to act as a backend 
+
+## Week 9 - 10/11/2021
+
+* I learned how to document react components. After some research, my team chose React Styleguidist. I used their documentation to install it and started documenting our first components. The render is really good, by just adding some comment lines in the code, we got an html page with all our components, what they do and how to use them. 
+* I integrated Pappers API into the front application. It is an API that checks if a company exists in France based on its name or identification number. I used react-bootstrap/form to display a search input on my page, than I looped on the results to display them in a dropdown list. Everytime the user updated the text input, an API call is launched to Pappers to get the most accurate results possible. It also gives an autocomplete feel. 
+
+## Week 8 - 10/04/2021
+
+* Got my first wireframe to integrate today. It was easier than I expected, good for my self confidence on the first week in a new career. 
+* I learned to integrate i18next to translate an application. Really interesting, I published a medium article on it : https://sophie-grandperrin.medium.com/how-to-translate-a-react-application-3b023e853b80
+
+## Week 7 - 09/27/2021
+
+* Got my first job as a full stack software developer !!! I am super exited to start with Addworking. They just raised funds, so the tech team is growing fast. They were 6 developers before I joined them. I am the first new one to arrive, but we should be 15 by the end of the year. 
+* What I love about this job is that I get to start a new project from scratch. The current application was developed using Laravel, and the new CTO wants to switch to React and Node.js. I am part of a newly formed team in charge of developping this new version. I am really happy to be able to use my newly acquired skills in React and Node.js for this job. 
+
+## Week 6 - 09/20/2021
+
+Building display dynamically  
+
+## Week 5 - 09/13/2021
+
+Backend 
+
+## Week 4 - 09/06/2021
 
 * Now that my user can create a project, and access all his projects through his dashboard page, it's time to get serious. I started working on the most important page of my software, the project dashboard. This page is the center of my tool, it's where magic happens. It needs to be 100% user friendly.
 * I started with the easy but not so easy part: frontend. Lots of different components on this page as display is different depending on what stage the user is on. 
@@ -17,7 +88,7 @@ I am currently working on a software for real estate professionals. This softwar
 * Now I am working on the backend side of this page. I need to learn how to use Context in order to share my teams and spaces data with my building component. I heard about Redux, but my mentor from OpenClassrooms told me Context was easier to learn. 
 * After a couple of tutorials and some documentation reading, I managed to implement context to share my project details into all my project components. 
 
-## Week 3
+## Week 3 - 08/30/2021
 
 * Now that my user is logged in safely, I can start working on my actual tool. The first step is for my user to create a project. He needs to complete a couple of information about his building: project name, building address and a list of floors. 
 * I started working on the frontend of that page, integrating the design was easy, except for the bootstrap table... Aligning items was hard, adding a delete button was not that easy, but I did it. It was the first time I used an array as a state variable. A bit tricky but it went well. 
@@ -29,7 +100,7 @@ I am currently working on a software for real estate professionals. This softwar
 ![image](https://user-images.githubusercontent.com/72617821/133152097-a206913b-c0f9-4670-9664-70dd9989ddc2.png)
 
 
-## Week 2
+## Week 2 - 08/23/2021
 
 * I wanted to update my website by adding tutorials on how to use Spacee and what should be done before using it. I could have used React, but it is not the best for SEO, instead I cheated and downloaded a sexy template, just adapted the html to fit my needs. I did not know how to deploy it, a friend of mine helped me, he used an AWS instance, nginx for the web server and letsencrypt for the SSL. My website : https://spacee-workplace.com  
 * I started working on the "forgot my password" flow, designing several pages (password recovery, change password, confirmation password change)
