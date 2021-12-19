@@ -3,7 +3,7 @@
 
 
 - I am learning both backend and frontend. 
-- My frontend skills : learned to use ReactJS, Javascript, Sass, Bootstrap, keyframes, pixel-ready development based on Figma design, fully responsive application
+- My frontend skills : ReactJS, Javascript, Sass, Bootstrap, keyframes, pixel-ready development based on Figma design, fully responsive application
 - My backend skills : node.js, express, Sequelize & MySQL, Mongoose & MongoDB, adminBro
 - 📫 How to reach me: spacee.sophie@gmail.com
 
