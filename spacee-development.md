@@ -71,7 +71,11 @@ Building display dynamically
 
 ## Week 5 - 09/13/2021
 
-Backend 
+* Now that I know how to use Context with React (what an amazing tool!), I can access my teams and spaces everywhere on my page. I can focus on creating the dynamic display of teams and spaces on my left component, which represents my building. Once I create a team or a meeting space in my bottom-right table, I want it to appear immediately on the first floor of my building. 
+* I used react-dnd to make sure that my users could easily drag and drop spaces from one floor to another. When a space is created, a box appears in my building, its size is dynamic, and depends on which floor it is placed into. If the floor is not full, the size of the box is a simple calculation of the space's surface on the total floor surface. If the floor is full, and the sum of all spaces placed on that floor is greated then the total floor surface, the floor's border becomes red, and the box size calculation changes, it is now a proportion of the space's surface on the total spaces' surfaces on that same floor. That way, there is no overflow, and the proportions are respected. 
+* When a space box is dragged and dropped to another floor, the space's floor is changed in the database. This way, the database is always up to date, and the user's work cannot be lost. 
+
+![ggif-dnd](https://user-images.githubusercontent.com/72617821/146988160-c5764ff0-9428-4276-b1e4-0ddd738c3e59.gif)
 
 ## Week 4 - 09/06/2021
 
