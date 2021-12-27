@@ -1,5 +1,5 @@
 - 👋 Hi, I’m Sophie
-- 👀 With 4 years of experience in Workplace Management Consulting, I decided to focus on a SaaS product for real estate professionals. In order to be able to code an MVP, I followed a 6-month training to become a full-stack developer. I am working on this project on my free time, and found a first job as a developer in a french start up. Follow my journey as a full-stack developer here: https://github.com/sophieSpacee/sophieSpacee/blob/main/spacee-development.md
+- 👀 With 5 years of experience in Workplace Management Consulting, I decided to focus on a SaaS product for real estate professionals. In order to be able to code an MVP, I followed a 6-month training to become a full-stack developer. I am working on this project on my free time, and found a first job as a developer in a french start up. Follow my journey as a full-stack developer here: https://github.com/sophieSpacee/sophieSpacee/blob/main/spacee-development.md
 
 
 - I am learning both backend and frontend. 
