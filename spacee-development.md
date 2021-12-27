@@ -15,7 +15,7 @@ Integrated a page in Backoffice that included :
 
 ## Week 17 - 12/06/2021
 
-* Implementing tests with Jest. 
+* I did learn about unit testing in my training, but I never had to implement them until today. My team chose to use Jest to test our backend functions. I started by installing it and my first task was to test our authentication middleware. If an authorization token was present in the headers, and valid of course, the middleware directs the user to the next function. However, if the token is missing or not valid, an error must appear. That's what I worked on beginning of this week. To test this middleware, I had to mock the request and response of my function, as well as the jwt verify return value. I managed to test my middleware successfully.  
 * Implemented an infinite scroll on a list of results. 
 
 ## Week 16 - 11/29/2021
