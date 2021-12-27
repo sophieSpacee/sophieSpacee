@@ -16,7 +16,9 @@ Integrated a page in Backoffice that included :
 ## Week 17 - 12/06/2021
 
 * I did learn about unit testing in my training, but I never had to implement them until today. My team chose to use Jest to test our backend functions. I started by installing it and my first task was to test our authentication middleware. If an authorization token was present in the headers, and valid of course, the middleware directs the user to the next function. However, if the token is missing or not valid, an error must appear. That's what I worked on beginning of this week. To test this middleware, I had to mock the request and response of my function, as well as the jwt verify return value. I managed to test my middleware successfully.  
-* Implemented an infinite scroll on a list of results. 
+* My second challenge this week was to implement an infinite scroll. We have an API that returns 25 results per page, and we wanted to be able to scroll and load the elements as we were going down the list. We also wanted the already uploaded results to stay there. 
+*  First, I found a tutorial on how to load a new page when the scroll nearly reaches the end of the results (great tutorial : https://javascript.plainenglish.io/implementing-infinite-scroll-in-react-34b112813de7). This allowed me to load the 25 next results as I reached the bottom of my page. The problem was that my page was only showing the 25 next results, the precedent ones were not displayed anymore. 
+*  To change that, I added a "allowConcat" parameter to my API call. If concat(true), the results were added to the existing list of results with a concat function. If concat was false, the list was only returning the 25 first results. This way, when I scroll down, the function that calls the API uses the allowConcat parameter and the results appear smoothly at the bottom of the list. The infinite scroll is now working fine. 
 
 ## Week 16 - 11/29/2021
 
