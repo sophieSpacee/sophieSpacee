@@ -1,6 +1,10 @@
 # My first year as a software developer 
 
-After 5 years as a workplace consultant, I took a full time training for 6 months to become a full stack developer with OpenClassrooms. After I finished my training, I started working on a personal project: a software for real estate professionals. This software allows anyone to create a building and fill it up with teams, collaborative spaces and services. The end goal is to help companies find the best set up according to their synergies and constraints. After two months spent on my project, I got a job at Addworking, a startup company that develops a subcontractor management platform. 
+After 5 years as a workplace consultant, I took a full time training for 6 months to become a full stack developer with OpenClassrooms. When I finished my training, I started working on a personal project: a software for real estate professionals, Spacee (https://spacee-workplace.com/). As I neared the end of Spacee's development, I decided to find a job and I started working for Addworking, a startup company that develops a subcontractor management platform (https://www.addworking.com/). 
+
+## Week 20 - 12/27/2021
+
+* My team and I are still working on the Back Office for our conformity team. This week, I worked on some design changes and integration. 
 
 ## Week 19 - 12/20/2021
 
@@ -22,35 +26,49 @@ Integrated a page in Backoffice that included :
 
 ## Week 16 - 11/29/2021
 
-* Integrated APIs in frontend 
-* Used DTO on backend routes 
+* Carried on integrating APIs in our back office frontend : filter, sorting out, total number of vendors, total number of clients per vendor...
+* I learned how to implement DTO on my backend routes, thanks to a colleague who showed me. 
 
 ## Week 15 - 11/22/2021
 
-* Created APIs for the BackOffice 
+* After the first week into the backoffice, my team realized we needed to all work on the backend and develop all the APIs needed for the frontend to work. 
+* I worked on a research API that returned the id and name of vendors that started with a specific character string. I then integrated it into the front, and developed an autocomplete style research bar. Every character added was launching an API call to get more precise information in the dropdown list below. 
 
 ## Week 14 - 11/15/2021
 
-* Integrated first page of Backoffice 
+* This week, I integrated the first page of our Backoffice. It is a dashboard showing a list of vendors with their information. The user can filter the list on several parameters and sort it out by name or date. As I was waiting for the API to be done, I created a list of fake vendors to be able to dynamically display them on my page. I used a map function to loop on the vendors' list. 
 
 ## Week 13 - 11/08/2021
 
-* Implemented Google SSO front and back 
+* My first challenge was to implement Google SSO to login into the BackOffice. I found it hard to find a complete tutorial on how to do this with react and node.js, but by mixing up some videos and articles, I managed to make it work. Several options are available, I chose to put a maximum of logic into the backend side. I generated a customized token based on the user's information to make sure the connection was secure. 
+* When I was done, I wrote an tutorial about it: https://sophie-grandperrin.medium.com/implement-google-sso-with-reactjs-node-express-and-mongodb-28a9eeb10cd1
+
+
+![1_QzaMpOtp8uI7OhQ7kvqqJg](https://user-images.githubusercontent.com/72617821/147593724-ef0332e8-b6d0-4527-8aef-0575cb431b5d.gif)
+
+
 
 ## Week 12 - 11/01/2021
 
-* Initiated backend for a new BackOffice application 
-* Connected application to MongoDB database 
-* Learned how to use Typescript 
+* This week, my team's objective changed. Instead on working on a vendor application, we are asked to create a brand new Back Office for our conformity team. 
+* I initiated the backend for the new BackOffice application, installing all packages needed and connecting it to a MongoDB database. 
+* We decided to go with Typescript for the backend, I had never used Typescript before so I did some training on it.  
 
 ## Week 11 - 10/25/2021
 
-* Refacto
-* Swithed front to dark mode theme 
+* I read a lot of articles on React best practices and tried to implement them into our react application. Here are some articles I found interesting:
+* https://blog.logrocket.com/the-perfect-architecture-flow-for-your-next-node-js-project/
+* https://stackoverflow.com/questions/18927298/node-js-project-naming-conventions-for-files-folders
+* https://pretagteam.com/question/nodejs-project-naming-conventions-for-files-folders
 
 ## Week 10 - 10/18/2021
 
-* Implement json-server to act as a backend 
+* This week, I finished integrating all the mock ups for the MVP of a vendor application, here is the result:
+
+![vendor-demo](https://user-images.githubusercontent.com/72617821/147594119-556f70d5-373b-4aea-a15b-e0857f6816ae.gif)
+
+* After finishing the frontend, we implemented json-server to act as a backend in order to integrate fake APIs into our react application and test if the API calls were done well. 
+
 
 ## Week 9 - 10/11/2021
 
@@ -62,6 +80,9 @@ Integrated a page in Backoffice that included :
 * Got my first wireframe to integrate today. It was easier than I expected, good for my self confidence on the first week in a new career. 
 * I learned to integrate i18next to translate an application. Really interesting, I published a medium article on it : https://sophie-grandperrin.medium.com/how-to-translate-a-react-application-3b023e853b80
 
+![translation-gif (3)](https://user-images.githubusercontent.com/72617821/147593618-9edec4b7-188b-4e38-960f-0f6e9761fc51.gif)
+
+
 ## Week 7 - 09/27/2021
 
 * Got my first job as a full stack software developer !!! I am super exited to start with Addworking. They just raised funds, so the tech team is growing fast. They were 6 developers before I joined them. I am the first new one to arrive, but we should be 15 by the end of the year. 
@@ -69,12 +90,15 @@ Integrated a page in Backoffice that included :
 
 ## Week 6 - 09/20/2021
 
-Building display dynamically  
+* Last piece of development to have my MVP ready is to be able to link a space to a floor or another space. It is the synergy part of my product. A user can link two teams together if they work a lot with each other and need to be positioned on the same floor. Same goes between a team and a specific space (laboratory, training room etc). I also would like for a space to be locked to a specific floor (cafeteria, welcome desk...) if the building has constraints, it is important to include them in the software from the beginning. 
+* I decided to have an action box displayed when the user hovers on a team or space on the building component. Some space were too small, and the space box would have been crowed if I added information or button inside it. 
+
+ ![Headquarter-hover](https://user-images.githubusercontent.com/72617821/147593275-25ed07ac-8e03-49c9-9194-0a0a4643b6e6.jpg)
 
 ## Week 5 - 09/13/2021
 
 * Now that I know how to use Context with React (what an amazing tool!), I can access my teams and spaces everywhere on my page. I can focus on creating the dynamic display of teams and spaces on my left component, which represents my building. Once I create a team or a meeting space in my bottom-right table, I want it to appear immediately on the first floor of my building. 
-* I used react-dnd to make sure that my users could easily drag and drop spaces from one floor to another. When a space is created, a box appears in my building, its size is dynamic, and depends on which floor it is placed into. If the floor is not full, the size of the box is a simple calculation of the space's surface on the total floor surface. If the floor is full, and the sum of all spaces placed on that floor is greated then the total floor surface, the floor's border becomes red, and the box size calculation changes, it is now a proportion of the space's surface on the total spaces' surfaces on that same floor. That way, there is no overflow, and the proportions are respected. 
+* I used react-dnd to make sure that my users could easily drag and drop spaces from one floor to another. When a space is created, a box appears in my building, its size is dynamic, and depends on which floor it is placed into. If the floor is not full, the size of the box is a simple calculation of the space's surface on the total floor surface. If the floor is full, and the sum of all spaces placed on that floor is greater then the total floor surface, the floor's border becomes red, and the box size calculation changes, it is now a proportion of the space's surface on the total spaces' surfaces on that same floor. That way, there is no overflow, and the proportions are respected. 
 * When a space box is dragged and dropped to another floor, the space's floor is changed in the database. This way, the database is always up to date, and the user's work cannot be lost. 
 
 ![ggif-dnd](https://user-images.githubusercontent.com/72617821/146988160-c5764ff0-9428-4276-b1e4-0ddd738c3e59.gif)
