@@ -63,9 +63,8 @@ Integrated a page in Backoffice that included :
 
 ## Week 10 - 10/18/2021
 
-* This week, I finished integrating all the mock ups for the MVP of a vendor application, here is the result:
+* This week, I finished integrating all the mock ups for the MVP of a vendor application.
 
-![vendor-demo](https://user-images.githubusercontent.com/72617821/147594119-556f70d5-373b-4aea-a15b-e0857f6816ae.gif)
 
 * After finishing the frontend, we implemented json-server to act as a backend in order to integrate fake APIs into our react application and test if the API calls were done well. 
 
