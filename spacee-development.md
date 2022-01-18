@@ -2,9 +2,19 @@
 
 After 5 years as a workplace consultant, I took a full time training for 6 months to become a full stack developer with OpenClassrooms. When I finished my training, I started working on a personal project: a software for real estate professionals, Spacee (https://spacee-workplace.com/). As I neared the end of Spacee's development, I decided to find a job and I started working for Addworking, a startup company that develops a subcontractor management platform (https://www.addworking.com/). 
 
+## Week 22 - 01/10/2022
+
+* I learned about serverless solution, we are going to use it with AWS to host our application. 
+
+## Week 21 - 01/03/2022
+
+* We started a new project, an application dedicated to onboard contractors. We are building this project with Typescript / node.js / express for the backend, and Typescript / React for the frontend. I will be working on both backend and frontend with my team. 
+* My first task was to implement authentication with AWS Cognito. It allows us to have a fully secured login and signup system. With this tutorial, everything went well, I recommend it: https://jafreitas90.medium.com/simple-and-easy-authentication-wepapp-react-cognito-sample-app-915b0dc99e7a
+
 ## Week 20 - 12/27/2021
 
 * My team and I are still working on the Back Office for our conformity team. This week, I worked on some design changes and integration. 
+* The backoffice went live ! For this project, we are using Heroku for dev, staging and production environment. 
 
 ## Week 19 - 12/20/2021
 
