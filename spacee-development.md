@@ -35,7 +35,7 @@ HOLIDAY
 
 Integrated a page in Backoffice that included :
 * A Document List component with 2 tabs, each tabs had to show different documents. One tab showed documents asked by Addworking, the other one showed documents asked by customers. As all those documents came from a single list, I had to sort them out depending on the company who asked for them, and split them into two distinct lists : one where Addworking had asked the document, one for all other documents. 
-* A Document Display component with an unknown number of tabs. When the user clicks on a document in the Document List component, the docuemnt is displayed in the middle of the page. Some documents have different PDF files to display, each file must be in a different tab. I had to loop on the files list of the document selected and dynamically create a tab per file. 
+* A Document Display component with an unknown number of tabs. When the user clicks on a document in the Document List component, the document is displayed in the middle of the page. Some documents have different PDF files to display, each file must be in a different tab. I had to loop on the files list of the document selected and dynamically create a tab per file. 
 * A Comment component that allows users to write a comment in a text area and select a visibility option in a dropdown menu. This one was tricky because it is not possible to change the style of the select menu of react bootstrap. I had to integrate the design and use states to change the value of privacy before submitting the comment. 
 
 ## Week 17 - 12/06/2021
