@@ -2,6 +2,17 @@
 
 After 5 years as a workplace consultant, I took a full time training for 6 months to become a full stack developer with OpenClassrooms. When I finished my training, I started working on a personal project: a software for real estate professionals, Spacee (https://spacee-workplace.com/). As I neared the end of Spacee's development, I decided to find a job and I started working for Addworking, a startup company that develops a subcontractor management platform (https://www.addworking.com/). 
 
+
+## Week 22 - 01/24/2022
+
+* I started using SQL Server for a new application we are working on. 
+
+
+## Week 23 - 01/17/2022
+
+* I wrote unit tests for our frontend. I learned how to use Jest with React, how to mock Amplify and how to test render on a web page. Because we are using functional components, we could not test a function within a component. We had to go around and write tests to look for wanted result displayed on our page. For example, instead of checking if the function setError was called, we had to check in the render if the error message we wanted was displayed. 
+* I also installed ESLint on our backend projet in node.js and typescript. I configured it and corrected over 2300 errors. Note for later: always install ESLint before starting on a project. 
+
 ## Week 22 - 01/10/2022
 
 * I learned about serverless solution, we are going to use it with AWS to host our application. 
