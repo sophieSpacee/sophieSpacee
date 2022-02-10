@@ -4,31 +4,31 @@ After 5 years as a workplace consultant, I took a full time training for 6 month
 
 ## Week 24 - 02/07/2022
 
-* I created complex Regex to extract data from document using pdf-parse. 
-* I implemented Mindee OCR to parse data from documents that were scanned or photographed. 
+* I created complex **Regex** to extract data from document using pdf-parse. 
+* I implemented **Mindee OCR** to parse data from documents that were scanned or photographed. 
 
 ## Week 23 - 01/31/2022
 
-* This week, we want to be able to extract data from documents. I used Mindee OCR for scanned and photographed documents, and pdf-parse for original pdf documents. The idea is to get data from those documents, and verify if the document is valid for our platform. Using Regex, we extracted data from documents with pdf-parse, and launched an API call to URSSAF website, checking if the document is valid. The API also gives us more information on the document, which we catch and use for our verifications.  
+* This week, we want to be able to extract data from documents. I used Mindee OCR for scanned and photographed documents, and **pdf-parse** for original pdf documents. The idea is to get data from those documents, and verify if the document is valid for our platform. Using Regex, we extracted data from documents with pdf-parse, and launched an API call to URSSAF website, checking if the document is valid. The API also gives us more information on the document, which we catch and use for our verifications.  
 
 ## Week 22 - 01/24/2022
 
-* I started using SQL Server for a new application we are working on. 
-* I installed a husky command to force eslint and tests before being able to commint and push a branch on github. 
+* I started using **SQL Server** for a new application we are working on. 
+* I installed a **husky** command to force eslint and tests before being able to commint and push a branch on github. 
 
 ## Week 23 - 01/17/2022
 
-* I wrote unit tests for our frontend. I learned how to use Jest with React, how to mock Amplify and how to test render on a web page. Because we are using functional components, we could not test a function within a component. We had to go around and write tests to look for wanted result displayed on our page. For example, instead of checking if the function setError was called, we had to check in the render if the error message we wanted was displayed. 
+* I wrote **unit tests** for our frontend. I learned how to use Jest with React, how to mock Amplify and how to test render on a web page. Because we are using functional components, we could not test a function within a component. We had to go around and write tests to look for wanted result displayed on our page. For example, instead of checking if the function setError was called, we had to check in the render if the error message we wanted was displayed. 
 * I also installed ESLint on our backend projet in node.js and typescript. I configured it and corrected over 2300 errors. Note for later: always install ESLint before starting on a project. 
 
 ## Week 22 - 01/10/2022
 
-* I learned about serverless solution, we are going to use it with AWS to host our application. 
+* I learned about **serverless** solution, we are going to use it with AWS to host our application. 
 
 ## Week 21 - 01/03/2022
 
 * We started a new project, an application dedicated to onboard contractors. We are building this project with Typescript / node.js / express for the backend, and Typescript / React for the frontend. I will be working on both backend and frontend with my team. 
-* My first task was to implement authentication with AWS Cognito. It allows us to have a fully secured login and signup system. With this tutorial, everything went well, I recommend it: https://jafreitas90.medium.com/simple-and-easy-authentication-wepapp-react-cognito-sample-app-915b0dc99e7a
+* My first task was to implement authentication with **AWS Cognito**. It allows us to have a fully secured login and signup system. With this tutorial, everything went well, I recommend it: https://jafreitas90.medium.com/simple-and-easy-authentication-wepapp-react-cognito-sample-app-915b0dc99e7a
 
 ## Week 20 - 12/27/2021
 
