@@ -2,11 +2,19 @@
 
 After 5 years as a workplace consultant, I took a full time training for 6 months to become a full stack developer with OpenClassrooms. When I finished my training, I started working on a personal project: a software for real estate professionals, Spacee (https://spacee-workplace.com/). As I neared the end of Spacee's development, I decided to find a job and I started working for Addworking, a startup company that develops a subcontractor management platform (https://www.addworking.com/). 
 
+## Week 24 - 02/07/2022
+
+* I created complex Regex to extract data from document using pdf-parse. 
+* I implemented Mindee OCR to parse data from documents that were scanned or photographed. 
+
+## Week 23 - 01/31/2022
+
+* This week, we want to be able to extract data from documents. I used Mindee OCR for scanned and photographed documents, and pdf-parse for original pdf documents. The idea is to get data from those documents, and verify if the document is valid for our platform. Using Regex, we extracted data from documents with pdf-parse, and launched an API call to URSSAF website, checking if the document is valid. The API also gives us more information on the document, which we catch and use for our verifications.  
 
 ## Week 22 - 01/24/2022
 
 * I started using SQL Server for a new application we are working on. 
-
+* I installed a husky command to force eslint and tests before being able to commint and push a branch on github. 
 
 ## Week 23 - 01/17/2022
 
