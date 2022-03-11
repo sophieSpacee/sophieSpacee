@@ -97,6 +97,9 @@ Integrated a page in Backoffice that included :
 
 * After finishing the frontend, we implemented json-server to act as a backend in order to integrate fake APIs into our react application and test if the API calls were done well. 
 
+![vendor-demo](https://user-images.githubusercontent.com/72617821/157905093-be0b58a1-d451-4da9-9f94-dd9aa413ab97.gif)
+
+
 
 ## Week 9 - 10/11/2021
 
