@@ -2,6 +2,18 @@
 
 After 5 years as a workplace consultant, I took a full time training for 6 months to become a full stack developer with OpenClassrooms. When I finished my training, I started working on a personal project: a software for real estate professionals, Spacee (https://spacee-workplace.com/). As I neared the end of Spacee's development, I decided to find a job and I started working for Addworking, a startup company that develops a subcontractor management platform (https://www.addworking.com/). 
 
+I have been developing for over a year and a half now, working on both personal and professional projects. Here is what I learned:
+
+* When coding, **you never stop learning**, not a day goes by without me learning something new
+* **Every piece of code can be improved** and modified an infinite number of times, you just have to know when to stop
+* **It is OK to say you don't know**, other developers are here for you, you just need to ask the right question (stackoverflow, github...)
+
+## Week 25 - 02/09/2022
+
+* We started a new project, a brand new design of our onboarding process, here is what it looks like:
+<img width="1924" alt="Capture d’écran 2022-06-29 à 07 52 26" src="https://user-images.githubusercontent.com/72617821/181062881-4c2ab3e8-68e6-4a03-ac07-8f8ddf2bd666.png">
+
+
 ## Week 24 - 02/07/2022
 
 * I created complex **Regex** to extract data from document using pdf-parse. 
