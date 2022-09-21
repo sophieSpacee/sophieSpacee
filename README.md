@@ -2,7 +2,7 @@
 
 - I am a full stack developer. 
 
-- 👀 With 5 years of experience in Workplace Management Consulting, I decided to focus on a SaaS product for real estate professionals. In order to be able to code an MVP, I followed a 6-month training to become a full-stack developer. I designed and developed Spacee myself, here is my journey: https://github.com/sophieSpacee/sophieSpacee/blob/main/spacee-development.md
+- 👀 With 5 years of experience in Workplace Management Consulting, I decided to focus on a SaaS product for real estate professionals. In order to be able to code an MVP, I followed a 6-month training to become a full-stack developer. I designed and developed Spacee myself, here is my journey: https://github.com/sophieSpacee/sophieSpacee/blob/main/spacee-development.md. By the way, Spacee is now online, you can check it out here: https://www.spacee-workplace.com/
 
 - I have been working as a full stack developer at Addworking for a year now, here is what I learned: https://github.com/sophieSpacee/sophieSpacee/blob/main/firstyear.md
 
