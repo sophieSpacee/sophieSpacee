@@ -7,7 +7,7 @@ After 5 years as a workplace consultant, I decided to launched a product to impr
 * Great timing because in 2 days, I start my new job at Addworking as a full stack developer, and I won't have as much time to spend on this project. 
 * Here is what it looks like: 
 
-[![Spacee-Workplace](https://img.youtube.com/vi/kGts8f_sfpE/0.jpg)](https://www.youtube.com/watch?v=kGts8f_sfpE)
+![spacee-workplace-demo](https://user-images.githubusercontent.com/72617821/191592368-1b6c23f9-43e1-4fc3-a9fd-5e4d62397442.gif)
 
 https://www.youtube.com/watch?v=kGts8f_sfpE
 
